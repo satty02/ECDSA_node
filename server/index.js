@@ -65,7 +65,7 @@ function setInitialBalance(address) {
 // function to validate an address
 function isOwner(address,digitalSignature){
 
-  // recover the public address from the signature
+  // recover the public address from the address
 
     const publicKey = publicKeys[address];
     const msg = 'Hello its me';
